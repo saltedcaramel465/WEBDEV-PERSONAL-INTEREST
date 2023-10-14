@@ -1,0 +1,11 @@
+@media(max-width: 1240px) {
+    .team {
+        width: 100%;
+        height: auto;
+        padding: 90px 2%;
+    }
+
+    .center h1 {
+        font-size: 3.2rem;
+    }
+}
