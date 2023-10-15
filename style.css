@@ -1,168 +1,215 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
 * {
-    margin: 0;
-    font-family: 'Young Serif', serif;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  font-family: "Young Serif", serif;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #d943ed;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+body {
+  overflow-x: hidden;
+}
+nav {
+  height: 4.5rem;
+  width: 100vw;
+  background-color: #131418;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  position: fixed;
+  z-index: 10;
+}
+
+/*Styling logo*/
+.logo {
+  padding: 1vh 1vw;
+  text-align: center;
+}
+.logo img {
+  height: 5rem;
+  width: 5rem;
+}
+
+/*Styling Links*/
+.nav-links {
+  display: flex;
+  list-style: none;
+  width: 88vw;
+  padding: 0 0.7vw;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+}
+.nav-links li a {
+  text-decoration: none;
+  margin: 0 0.7vw;
+}
+.nav-links li a:hover {
+  color: #61dafb;
+}
+.nav-links li {
+  position: relative;
+}
+.nav-links li a:hover::before {
+  width: 80%;
+}
+
+/*Styling Buttons*/
+.login-button {
+  background-color: transparent;
+  border: 1.5px solid #f2f5f7;
+  border-radius: 2em;
+  padding: 0.6rem 0.8rem;
+  margin-left: 2vw;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.login-button:hover {
+  color: #131418;
+  background-color: #f2f5f7;
+  border: 1.5px solid #f2f5f7;
+  transition: all ease-in-out 350ms;
+}
+.join-button {
+  color: #131418;
+  background-color: #61dafb;
+  border: 1.5px solid #61dafb;
+  border-radius: 2em;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.join-button:hover {
+  color: #f2f5f7;
+  background-color: transparent;
+  border: 1.5px solid #f2f5f7;
+  transition: all ease-in-out 350ms;
+}
+
+/*Styling Hamburger Icon*/
+.hamburger div {
+  width: 30px;
+  height: 3px;
+  background: #f2f5f7;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+.hamburger {
+  display: none;
+}
+
+/*Animating Hamburger Icon on Click*/
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  transition: all 0.7s ease;
+  width: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    font-weight: 800;
-    color: black;
-    text-transform: uppercase;
-    background-color: var(--clr);
-}
-
-header {
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    background: lightcoral;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 50px 0;
-}
-
-.logo {
-    position: relative;
-    color: white;
-    font-size: 1rem;
-    font-weight: 700;
-    text-decoration: underline;
-}
-
-header nav {
-    display: flex;
-    gap: 20px;
-}
-
-header nav a {
-    position: relative;
-    text-decoration: none;
-    padding: 12px 20px;
-    color: brown;
-    font-weight: 500;
-}
-
-header nav a.active {
-    background: var(--clr);
-    color: rgb(245, 100, 100);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-header nav a.active::before {
-    content: "";
-    position: absolute;
-    left: 20px;
-    bottom: 0%;
-    width: 20px;
-    height: 20px;
-    background: transparent;
-    border-bottom-right-radius: 20px;
-    box-shadow: 5px 5px 0 5px var(--clr);
-}
-
-header nav a.active::after {
-    content: "";
-    position: absolute;
-    right: -20px;
-    bottom: 0;
-    width: 20px;
-    height: 20px;
-    background: transparent;
-    border-bottom-left-radius: 20px;
-    box-shadow: -5px 5px 0 5px var(--clr);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 800;
+  color: black;
+  text-transform: uppercase;
+  background-color: var(--clr);
 }
 
 #home {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Space Grotesk', sans-serif;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+  text-decoration: none;
+  background: radial-gradient(#281c3e, #0f051d);
 }
-
+.center {
+  width: 100%;
+}
 .team {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: radial-gradient(#281c3e, #0f051d);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(#281c3e, #0f051d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .team-content {
-    width: 100%;
-    max-width: 1350px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-    align-items: center;
-    gap: 2rem;
-    text-align: center;
-    margin-top: 4rem;
+  
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 4rem;
 }
 
 .team-content img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    margin-bottom: 15px;
+  width: 50%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 .center h1 {
-    color: black;
-    font-size: 1rem;
-    text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
 }
 
 .box {
-    padding: 16px;
-    background: #1b1229;
-    border-radius: 15px;
-    transition: all .38s ease;
+  padding: 16px;
+  background: #1b1229;
+  border-radius: 15px;
+  transition: all 0.38s ease;
 }
 
 .box h3 {
-    font-size: 23px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 8px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
 }
 
 .box h5 {
-    font-size: 15px;
-    font-weight: 600;
-    color: #b7b4bb;
-    margin-bottom: 15px;
-    letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #b7b4bb;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
 }
 
 .icons i {
-    display: inline-block;
-    color: lightskyblue;
-    font-size: 30px;
-    margin: 0 8px;
-    transition: all .38s ease;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: all 0.38s ease;
 }
 
 .icons i:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .box:hover {
-    transform: translateY(-10px);
-    cursor: pointer;
+  transform: translateY(-10px);
+  cursor: pointer;
 }
