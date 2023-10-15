@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
 }
 nav {
-  height: 3rem;
+  height: 4rem;
   width: 100vw;
   background-color: #131418;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
@@ -47,7 +47,7 @@ nav {
   list-style: none;
   width: 88vw;
   padding: 0 0.7vw;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   text-transform: uppercase;
 }
@@ -106,7 +106,7 @@ section {
 
 #home {
   margin: 0;
-  padding: 90px;
+  padding: 110px;
   height: 100%;
   font-size: 21px;
   background: radial-gradient(#281c3e, #0f051d);
