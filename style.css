@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,300,500");
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 * {
   margin: 0;
   padding: 0;
@@ -92,7 +102,131 @@ section {
   color: black;
 }
 
+/* about section */
+
 #home {
+  margin: 0;
+  padding: 90px;
+  height: 100%;
+  font-size: 21px;
+  background: radial-gradient(#281c3e, #0f051d);
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+section.card {
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
+  background: linear-gradient(to right, #1cb5e0, #000046);
+  border-radius: 24px 24px 24px 48px;
+  padding: 48px 48px 48px 308px;
+  min-width: 640px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  position: relative;
+  box-shadow: 5px 0 0 0 rgba(204, 204, 204, 0.3),
+    -5px 0 0 0 rgba(204, 204, 204, 0.3), 0 5px 0 0 rgba(204, 204, 204, 0.3);
+}
+section.card .text-content {
+  display: flex;
+  flex-direction: column;
+  width: calc(60vw - 192px);
+}
+section.card .text-content h3 {
+  margin: 0;
+  padding-left: 2rem;
+  font-size: 1.5em;
+  max-width: 20ch;
+  color: #fff;
+}
+section.card .text-content p {
+  margin: 25px 0 24px;
+  color: #fff;
+  font-size: 0.9em;
+  padding-left: 2rem;
+}
+
+button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  border-radius: 20px;
+  background: #183153;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+}
+
+button:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: #ffd401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+button a {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover a {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+section.card .visual {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: -24px;
+  left: 24px;
+  overflow: hidden;
+  border-radius: 24px;
+}
+section.card .visual img {
+  height: 100%;
+}
+article {
+  margin: auto;
+  display: block;
+  width: calc(60vw + 248px);
+  max-width: calc(920px + 248px);
+  min-width: calc(640px + 248px);
+}
+
+#about {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -108,7 +242,7 @@ section {
   background: radial-gradient(#281c3e, #0f051d);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
 }
 
@@ -180,37 +314,4 @@ section {
 .box:hover {
   transform: translateY(-10px);
   cursor: pointer;
-  
-}
-
-.container {
-  width: 100%;
-  height: 100%;
-  --color: rgba(114, 114, 114, 0.3);
-  background-color: #191a1a;
-  background-image: linear-gradient(
-      0deg,
-      transparent 24%,
-      var(--color) 25%,
-      var(--color) 26%,
-      transparent 27%,
-      transparent 74%,
-      var(--color) 75%,
-      var(--color) 76%,
-      transparent 77%,
-      transparent
-    ),
-    linear-gradient(
-      90deg,
-      transparent 24%,
-      var(--color) 25%,
-      var(--color) 26%,
-      transparent 27%,
-      transparent 74%,
-      var(--color) 75%,
-      var(--color) 76%,
-      transparent 77%,
-      transparent
-    );
-  background-size: 55px 55px;
 }

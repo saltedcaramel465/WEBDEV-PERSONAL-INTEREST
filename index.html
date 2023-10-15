@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta property="og:type" content="website" />
+    <meta conent="summary_large_image" name="twitter:card" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Document</title>
@@ -24,12 +26,11 @@
     />
   </head>
   <body>
-    
     <nav>
       <div class="logo" style="display: flex; align-items: center">
         <span
           style="
-            color:  #fff;
+            color: #fff;
             font-size: 28px;
             font-weight: bold;
             letter-spacing: 1px;
@@ -46,22 +47,57 @@
       </div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
         <li><a href="#k-dramas">K-Dramas</a></li>
         <li><a href="#artist">Artist</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
     <section id="home">
+      <article>
+        <section class="card">
+          <div class="text-content">
+            <h3>Exploring the World of K-Drama with Us</h3>
+            <p>
+              Join us for a fantastic
+              <span class="world">K-Drama World</span> filled with popcorn,
+              laughter, and great company! Whether you're a fan of thrilling
+              action, heartwarming dramas, or side-splitting comedies, we've got
+              a film lineup to cater to all tastes. Save the date and bring your
+              favorite snacks to make it a memorable evening.
+            </p>
+            <button>
+              <a href="#k-dramas">EXPLORE</a>
+            </button>
+          </div>
+          <div class="visual">
+            <img
+              src="https://i.pinimg.com/736x/5a/dd/16/5add164dac701c1ccbfd53914f927794.jpg"
+              alt=""
+            />
+          </div>
+        </section>
+      </article>
+    </section>
+
+    <section id="k-dramas" style="--clr: #ffeaa7">K-Dramas</section>
+    <section id="artist" style="--clr: #17c0eb">Artist</section>
+    <section id="about">
       <div class="team-content">
         <div class="box">
           <img src="assets/chelle.png" />
           <h3>Ritchelle Rueras</h3>
           <h5>Student</h5>
           <div class="icons">
-            <a href="https://x.com/its_rchelle?s=09"><i class="ri-twitter-fill"></i></a>
-            <a href="https://www.facebook.com/ritchelle.rueras.71"><i class="ri-facebook-box-fill"></i></a>
-            <a href="https://www.instagram.com/rtch_elle/"><i class="ri-instagram-fill"></i></a>
+            <a href="https://x.com/its_rchelle?s=09"
+              ><i class="ri-twitter-fill"></i
+            ></a>
+            <a href="https://www.facebook.com/ritchelle.rueras.71"
+              ><i class="ri-facebook-box-fill"></i
+            ></a>
+            <a href="https://www.instagram.com/rtch_elle/"
+              ><i class="ri-instagram-fill"></i
+            ></a>
           </div>
         </div>
 
@@ -99,13 +135,6 @@
         </div>
       </div>
     </section>
-    <section id="about" >
-        <div class="container">
-
-        </div>
-    </section>
-    <section id="k-dramas" style="--clr: #ffeaa7">K-Dramas</section>
-    <section id="artist" style="--clr: #17c0eb">Artist</section>
     <section id="contact" style="--clr: #5ad3d1">Contact</section>
     <script src="script.js"></script>
   </body>

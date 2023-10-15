@@ -1,4 +1,32 @@
 /*Stying for small screens*/
+@media (max-width: 1240px) {
+  .team {
+    width: 100%;
+    height: auto;
+    padding: 90px 2%;
+  }
+
+  .center h1 {
+    font-size: 3.2rem;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  body {
+    padding: 96px 48px 24px;
+  }
+  article {
+    width: 100%;
+    min-width: 100%;
+  }
+  section.card {
+    min-width: 100%;
+  }
+  section.card .text-content {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   nav {
     position: fixed;
@@ -61,14 +89,33 @@
   }
 }
 
-@media (max-width: 1240px) {
-  .team {
+@media all and (max-width: 720px) {
+  body {
+    padding: 48px 24px 0;
+  }
+  section.card {
+    margin: 64px 0;
+    padding: 88px 36px 36px;
+    flex-direction: column;
+    border-radius: 24px;
+  }
+  section.card .text-content h3 {
+    max-width: calc(100% - 150px);
+    font-size: 1em;
+  }
+  section.card .text-content p,
+  section.card .text-content a {
+    font-size: 0.8em;
+  }
+  section.card .visual {
+    width: 150px;
+    height: 150px;
+    right: 16px;
+    left: auto;
+    border-radius: 50%;
+  }
+  section.card .visual img {
     width: 100%;
     height: auto;
-    padding: 90px 2%;
-  }
-
-  .center h1 {
-    font-size: 3.2rem;
   }
 }
