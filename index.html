@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta property="og:type" content="website" />
-    <meta conent="summary_large_image" name="twitter:card" />
+    <meta content="summary_large_image" name="twitter:card" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Document</title>
+    <meta content="" name="keywords">
+  <meta content="" name="description">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="mediaqueries.css" type="text/css" />
     <link
@@ -27,10 +29,19 @@
   </head>
   <body>
     <nav>
+      <div class="cube-loader">
+        <div class="cube-top"></div>
+        <div class="cube-wrapper">
+          <span style="--i:0" class="cube-span"></span>
+          <span style="--i:1" class="cube-span"></span>
+          <span style="--i:2" class="cube-span"></span>
+          <span style="--i:3" class="cube-span"></span>
+        </div>
+      </div>
       <div class="logo" style="display: flex; align-items: center">
         <span
           style="
-            color: #fff;
+            color: #8aeff8;
             font-size: 28px;
             font-weight: bold;
             letter-spacing: 1px;
@@ -57,7 +68,7 @@
       <article>
         <section class="card">
           <div class="text-content">
-            <h3>Exploring the World of K-Drama with Us</h3>
+            <h1><span>Exploring the World of K-Drama with Us</span></h1>
             <p>
               Join us for a fantastic
               <span class="world">K-Drama World</span> filled with popcorn,
