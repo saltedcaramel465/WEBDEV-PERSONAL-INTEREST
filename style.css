@@ -496,6 +496,7 @@ article {
 /* contact section */
 #contact{
 background: radial-gradient(#281c3e, #0f051d);
+justify-content: center;
 }
 
 .contact{
