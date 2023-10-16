@@ -215,7 +215,7 @@ section {
 
 section.card {
   background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
-  background: linear-gradient(to right, #1cb5e0, #000046);
+  background: linear-gradient(to right, #4db6d3, #0b0b5f);
   border-radius: 24px 24px 24px 48px;
   padding: 48px 48px 48px 308px;
   min-width: 640px;
@@ -359,7 +359,7 @@ article {
   position: relative;
   max-width: 300px;
   height: 260px;
-  background: linear-gradient(#96b2dc, #0e1636);
+  background: linear-gradient(#6db2d7, #0c184f);
   border-radius: 10px;
   margin: 30px 10px;
   padding: 20px 15px;
