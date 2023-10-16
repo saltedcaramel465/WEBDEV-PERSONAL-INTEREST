@@ -495,7 +495,7 @@ article {
 
 /* contact section */
 #contact{
-  background:rgb(30,30,40);
+  background: radial-gradient(#281c3e, #0f051d);
 }
 form { max-width:420px; margin:50px auto; }
 
