@@ -12,9 +12,6 @@
 }
 
 @media all and (max-width: 1100px) {
-  body {
-    padding: 96px 48px 24px;
-  }
   article {
     width: 100%;
     min-width: 100%;
@@ -90,9 +87,6 @@
 }
 
 @media all and (max-width: 720px) {
-  body {
-    padding: 48px 24px 0;
-  }
   section.card {
     margin: 64px 0;
     padding: 88px 36px 36px;
