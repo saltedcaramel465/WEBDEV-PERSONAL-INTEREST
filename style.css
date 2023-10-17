@@ -591,3 +591,54 @@ textarea::-webkit-scrollbar-thumb{
   color: rgb(18, 18, 18);
   background-color: yellow;
 }
+/************************************* Footer ********************************/
+
+footer{
+  background-color: #1a2436;
+}
+
+.footer-nav a{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footnav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  font-size: 24px;
+  position: relative;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  transition: .3s;
+  background-color: transparent;
+  margin: 20px;
+}
+
+.footnav-links a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #abe8fc;
+  font-weight: 500;
+  padding: 10px 3px;
+}
+
+.footnav-links a:hover{
+    color: #a2b719;
+}
+
+.footnav-links a:hover::after{
+    width: 100%;
+}
+
+.footer-bottom{
+ padding-left: 600px;
+ color:#a2e4f6;
+ font-size: 1.3rem;
+}
