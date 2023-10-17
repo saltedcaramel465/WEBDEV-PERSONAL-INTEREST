@@ -195,7 +195,6 @@ section {
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
   font-size: 1rem;
   font-weight: 800;
   color: black;
@@ -354,7 +353,7 @@ article {
   align-items: center;
   flex-wrap: wrap;
   padding-left: 8rem;
-  padding-top: 60rem;
+  padding-top: 5rem;
 }
 .container .card {
   position: relative;
@@ -415,13 +414,10 @@ article {
 
 /********************************* about section *******************************/
 #about {
+  padding-top:13rem;
   flex-wrap: wrap;
   font-family: "Space Grotesk", sans-serif;
   text-decoration: none;
-}
-.about{
-  justify-content: center;
-
 }
 .team {
   position: relative;
@@ -432,12 +428,13 @@ article {
 }
 
 .team-content {
-  max-width: 1350px;
+  max-width: 1100px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
   align-items: center;
   gap: 1rem;
   text-align: center;
+  padding-left: 1rem;
 }
 
 .team-content img {
