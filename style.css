@@ -340,6 +340,12 @@ article {
   min-width: calc(640px + 248px);
 }
 /*********************************** k-drama section *****************************/
+
+.sub-title h1{
+  font-size: 3rem;
+color: #cc005f;
+padding-top: 5rem;
+}
 .container {
   position: absolute;
   width: 100%;
@@ -347,8 +353,7 @@ article {
   justify-content: left;
   align-items: center;
   flex-wrap: wrap;
-  padding-left: 0rem;
-  padding-top: 5rem;
+  padding-top: 8rem;
 }
 .container .card {
   position: relative;
