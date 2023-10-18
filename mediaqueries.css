@@ -314,7 +314,7 @@
 
   /* Adjust the font size and padding for the p elements in the K-Dramas section */
   .container .card .content p {
-    font-size: 16px;
+    font-size: 15px;
     padding-bottom: 1px;
   }
 
