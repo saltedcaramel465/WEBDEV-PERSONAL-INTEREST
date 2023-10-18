@@ -405,14 +405,14 @@ article {
 }
 
 .container .card .content h2 {
-  color: #0c0c0c;
+  color: white;
   text-align: center;
   font-size: 20px;
   padding-bottom: 0.1px;
 }
 
 .container .card .content p {
-  color: #f3e9e9;
+  color: black;
   text-align: justify;
   font-size: 15px;
   padding-bottom: 1px;
