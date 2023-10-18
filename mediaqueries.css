@@ -333,3 +333,10 @@
   }
 
 }
+
+@media screen and (max-width: 320px) {
+
+  /* CSS styles for the iPhone SE */
+  button a {
+    z-index: 10;
+  }
