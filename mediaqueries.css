@@ -6,7 +6,7 @@
     padding: 90px 2%;
   }
 
-  .center h1 {
+  .sub-title h1 {
     font-size: 3.2rem;
   }
 }
@@ -148,53 +148,103 @@
   }
 }
 
-@media (max-width: 768px) {
-  footer {
-    padding: 10px;
-  }
-
-  .container {
-    padding-top: 1rem;
+@media screen and (max-width: 768px) {
+  section{
     padding-left: 0rem;
-    justify-content: left;
-
   }
-
-  .container .card {
-    max-width: 327px;
-    height: 160px;
+    /* Adjust the padding and font size for the home section */
+    #home {
+      padding: 90px;
+      font-size: 18px;
+    }
+    section.card {
+      padding: 140px 27px 37px;
+      padding-top: 10rem;
+      font-size: 10px;
   }
-
-  .container .card:hover {
-    height: 207px;
+  .sub-title h1{
+    font-size: 1.5rem;
+  color: #cc005f;
+  padding-top: 1rem;
   }
+.container{
+  padding-top: 0rem;
+}
+.container .card{
+  max-width: 167px;
+  height: 80px;
+}
 
-  .container .card .imgBx {
-    width: 184px;
-    height: 150px;
-    padding-top: 1rem;
-    top: -60px;
-    left: 40px;
-  }
+.container .card:hover {
+  height: 184px;
+}
+.container .card .imgBx{
+  width: 96px;
+  height: 97px;
+}
 
-  .container .card .imgBx img {
-    max-width: 79%;
-    height: 70%;
+#about{
+  padding-top: 11rem;
+  padding-left: 1rem;
+}
 
-  }
+.team-content{
+  padding-top: 1rem;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(127px, auto));
+  margin-top: 0;
+}
 
-  .container .card:hover .content {
-    margin-top: -104px;
+.box h5{
+  font-size: 8px;
+}
 
-  }
+.icons i {
+  display: flex;
+}
+.contact {
+  min-height: 89vh;
+
+}
+
+.contact form {
+  width: 294px;
+  height: 372px;
+}
+
+.contact form h4 {
+  padding: 0.5rem;
+}
+
+.contact form textarea {
+  padding: 1px;
+  min-width: 290px;
+  max-width: 39px;
+  min-height: 40px;
+  max-height: 6px;
+}
+.contact form #lastName, .contact form #mobile {
+  margin-left: 0px;
+}
+.contact form #button {
+  background: #031833;
+  margin-right: 24px;
+  font-size: 12px;
+}
+
+.footnav-links a {
+  font-size: 1rem;
+  font-weight: 50;
+}
+.footer-bottom {
+  padding-left: 118px;
+  color: #a2e4f6;
+  font-size: 0.5rem;
+}
+
 }
 
 @media all and (max-width: 720px) {
-  section.card {
-    padding: 88px 36px 36px;
-    flex-direction: column;
-    border-radius: 24px;
-  }
 
   section.card .text-content h3 {
     max-width: calc(100% - 150px);
@@ -216,7 +266,7 @@
 
   section.card .visual img {
     width: 100%;
-    /* height: auto; */
+
   }
 }
 
@@ -232,18 +282,6 @@
     display: none;
   }
 
-  /* Adjust the padding and font size for the home section */
-  #home {
-    padding: 50px;
-    font-size: 18px;
-  }
-
-  /* Adjust the padding and font size for the card in the home section */
-  section.card {
-    padding: 120px 10px 24px 16px;
-    font-size: 16px;
-  }
-
   /* Adjust the width of the visual element in the card */
   section.card .visual {
     width: 150px;
@@ -257,23 +295,21 @@
 
   /* Adjust the font size and padding for the h2 in the K-Dramas section */
   .container .card .content h2 {
-    font-size: 18px;
+    font-size: 10px;
   }
 
   /* Adjust the font size and padding for the p elements in the K-Dramas section */
   .container .card .content p {
-    font-size: 14px;
+    font-size: 8px;
     padding-bottom: 1px;
   }
 
   /* Adjust the font size for the team names in the About section */
   .box h3 {
-    font-size: 18px;
+    font-size: 10px;
   }
 
-  .contact form {
-    width: 100%;
-  }
+
 }
 
 /* Medium screens (tablets) */
