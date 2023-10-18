@@ -357,11 +357,12 @@ article {
 
 /*********************************** k-drama section *****************************/
 
-.sub-title h1{
+.sub-title h1 {
   font-size: 3rem;
-color: #cc005f;
-padding-top: 5rem;
+  color: #cc005f;
+  padding-top: 5rem;
 }
+
 .container {
   position: absolute;
   width: 100%;
