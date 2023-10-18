@@ -623,7 +623,7 @@ footer{
 
 .footnav-links a {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: #abe8fc;
   font-weight: 500;
   padding: 10px 3px;
@@ -640,5 +640,5 @@ footer{
 .footer-bottom{
  padding-left: 600px;
  color:#a2e4f6;
- font-size: 1.3rem;
+ font-size: 1rem;
 }
