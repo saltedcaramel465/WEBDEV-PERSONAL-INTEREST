@@ -62,7 +62,7 @@ nav {
   top: 1rem;
   left: 1rem;
   /* u can choose any size */
-  width: 5px;
+  width: 35px;
   height: 35px;
   transform-style: preserve-3d;
   transform: rotateX(-30deg);
