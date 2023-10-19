@@ -516,3 +516,27 @@ footer {
 }
 
 }
+
+/* ipad air */
+@media only screen and (min-width: 820px) and (max-width: 1180px){
+  #home {
+    padding-top: 21rem;
+}
+section.card .text-content h1 {
+  font-size: 2.3rem;
+}
+section.card .text-content p {
+  font-size: 1.2rem;
+}
+#k-dramas {
+  height: 111vh;
+}
+#about {
+  padding-top: 2rem;
+}
+.team-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 11rem;
+}
+}
