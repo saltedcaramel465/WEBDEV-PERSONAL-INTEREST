@@ -6,16 +6,27 @@
   #k-dramas {
     height: 137vh;
 }
+section{
+  padding-left: 0;
+}
 }
 
 @media (max-width: 1300px){
+  nav {
+    width: 97vw;
+}
+
   .sub-title h1 {
     font-size: 2.8rem;
     padding-top: 5rem;
 }
   .container .card {
-    max-width: 282px;
+    max-width: 280px;
     
+  }
+  .container .card .imgBx {
+    
+    width: 206px;
   }
 }
 @media (max-width: 1200px) {
@@ -40,8 +51,8 @@
 
   .sub-title h1 {
     font-size: 2rem;
-    padding-top:3rem
-  }
+    padding-top: 7rem;
+}
   #k-dramas {
     height: 109vh;
 }
@@ -61,7 +72,7 @@
 
   #home {
     padding: 0px;
-    padding-top: 15rem;
+    padding-top: 12rem;
     font-size: 21px;
   }
 
@@ -94,14 +105,44 @@
 
 @media (max-width: 1000px){
   #home {
-    padding-top: 11rem;
-  }
+    padding-top: 8rem;
+}
+  article {
+    max-width: calc(461px + 248px);
+    min-width: calc(469px + 246px);
+}
+section .card .visual{
+  width: 248px;
+}
+section.card .text-content h1 {
+  padding-top: 2rem;
+  padding-left: 18rem
+}
+section.card .text-content p {
+  padding-left: 20rem;
+  padding-top: 0rem;
+}
+  #k-dramas {
+    height: 149vh;
+}
   .sub-title h1 {
     font-size: 2rem;
     padding-top: 5rem;
 }
 
+#about {
+  padding-top: 1rem;
 }
+
+.team-content{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  gap: 2rem;
+  justify-content: space-around;
+}
+}
+
+
 @media screen and (max-width: 800px) {
   nav {
     position: fixed;
@@ -121,9 +162,11 @@
 
   .nav-links {
     /* position: fixed; */
-    background: #131418;
-    height: 100vh;
-    width: 100%;
+    background: transparent;
+    height: 33vh;
+    width: 70vh;
+    padding: 0;
+    padding-top: 3rem;
     flex-direction: column;
     clip-path: circle(50px at 90% -20%);
     -webkit-clip-path: circle(50px at 90% -10%);
@@ -136,6 +179,10 @@
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
   }
+
+  .nav-links li a {
+    padding-left: 20rem;
+}
 
   .nav-links li {
     opacity: 0;
@@ -174,187 +221,98 @@
   li.fade {
     opacity: 1;
   }
-}
-
-@media screen and (max-width: 768px) {
-  section {
-    padding-left: 0rem;
-  }
-
-  /* Adjust the padding and font size for the home section */
-  #home {
-    padding: 40px;
-    font-size: 18px;
-  }
-
-  section.card {
-    padding: 140px 27px 37px;
-    padding-top: 10rem;
-    font-size: 10px;
-  }
-
-  .sub-title h1 {
-    font-size: 1.3rem;
-    color: #cc005f;
-    padding-top: 6rem;
-    text-align: center;
-  }
-
-  section.card .text-content h1 {
-    font-size: 1.5rem;
-    padding-top: 0;
-  }
-
-  section.card .text-content p {
-    font-size: 1rem;
-    padding-left: 0rem;
-  }
-
-  .container {
-    padding-top: 0rem;
-  }
-
-  .container .card {
-    max-width: 167px;
-    height: 80px;
-  }
-
-  .container .card:hover {
-    height: 184px;
-  }
-
-  .container .card .imgBx {
-    width: 96px;
-    height: 97px;
-  }
 
   article {
-    max-width: calc(78px + 215px);
-    min-width: calc(181px + 134px);
-    padding-top: 5rem;
-
-  }
-
-  #about {
-    padding-top: 11rem;
-    padding-left: 0rem;
-  }
-
-  .team-content {
-    padding-top: 1rem;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(127px, auto));
-    margin-top: 0;
-  }
-
-  .box h5 {
-    font-size: 8px;
-  }
-
-  .icons i {
-    display: contents;
-  }
-
-
-  .contact form {
-    width: 294px;
-    height: 372px;
-  }
-
-  .contact form h4 {
-    padding: 0.5rem;
-  }
-
-  .contact form textarea {
-    padding: 1px;
-    min-width: 290px;
-    max-width: 39px;
-    min-height: 40px;
-    max-height: 6px;
-  }
-
-  .contact form #lastName,
-  .contact form #mobile {
-    margin-left: 0px;
-  }
-
-  .contact form #button {
-    background: #031833;
-    margin-right: 8px;
-    font-size: 12px;
-  }
-
-  .footnav-links a {
-    font-size: 1rem;
-    font-weight: 50;
-  }
-
-  .footer-bottom {
-    padding-left: 13px;
-    color: #a2e4f6;
-    font-size: 0.5rem;
-  }
+    max-width: calc(402px + 202px);
+    min-width: calc(393px + 198px);
+}
+section .card .visual {
+  width: 194px;
+}
+section.card .text-content h1 {
+  font-size: 2rem;
+  letter-spacing: 4px;
+  padding-left: 15rem;
+  padding-top: 4rem;
+}
+section.card .text-content p {
+  padding-left: 14rem;
+  padding-top: 0rem;
+}
 
 }
 
-@media all and (max-width: 720px) {
 
-  section.card .text-content h3 {
-    max-width: calc(100% - 150px);
-    font-size: 1rem;
+@media (max-width: 700px){
+  .cube-loader {
+    display: none;
   }
-
-  section.card .text-content p,
-  section.card .text-content a {
-    font-size: 1.1em;
-  }
-
-  section.card .visual {
-    width: 150px;
-    height: 150px;
-    right: none;
-    left: auto;
-    border-radius: 50%;
-  }
-
-  section.card .visual img {
-    width: 100%;
-
-  }
+  .nav-links li a {
+    padding-left: 18rem;
+}
+article {
+  max-width: calc(281px + 157px);
+  min-width: calc(233px + 195px);
+}
+section.card .text-content h1 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  padding-top: 1rem;
+}
+section.card .text-content p {
+font-size: 0.8rem;
+}
+#k-dramas {
+  height: 177vh;
+}
+.container .card {
+  max-width: 264px;
+}
+.container .card .imgBx {
+  width: 154px;
 }
 
-@media only screen and (max-width: 600px) {
+#about {
+  height: 86vh;
+}
+.team-content {
+  margin-top: 0;
+  padding-top: 2rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  gap: 5.5rem;
+  justify-content: space-around;
+}
+}
+@media  (max-width: 600px) {
 
   /* CSS for mobile devices */
   .nav-links li a {
     font-size: 14px;
+    padding-left: 14rem;
   }
-
   /* Hide the cube loader */
   .cube-loader {
     display: none;
   }
-
-  /* Adjust the width of the visual element in the card */
-  section.card .visual {
-    width: 150px;
+  section {
+    padding-left: 0;
   }
-
-  /* Adjust the font size and padding for the h1 in the home section */
-  h1 {
-    font-size: 2rem;
-    letter-spacing: 5px;
-  }
-
+  #k-dramas {
+    height: 182vh;
+}
+  .container .card {
+    max-width: 231px;
+}
   /* Adjust the font size and padding for the h2 in the K-Dramas section */
   .container .card .content h2 {
-    font-size: 19px;
-  }
+    font-size: 20px;
+}
 
   /* Adjust the font size and padding for the p elements in the K-Dramas section */
   .container .card .content p {
-    font-size: 8px;
-    padding-bottom: 1px;
+    font-size: 13px;
+    padding-bottom: 0px;
   }
 
   /* Adjust the font size for the team names in the About section */
@@ -365,55 +323,109 @@
   .contact form {
     width: 80%;
   }
-}
-
-/* Medium screens (tablets) */
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-
-  /* Adjust the font size for the navigation links */
-  .nav-links li a {
-    font-size: 16px;
-  }
-
-  /* Adjust the padding and font size for the home section */
-  /* #home {
-    padding: 100px;
-    font-size: 20px;
-  } */
-
-  /* Adjust the padding and font size for the card in the home section */
-  section.card {
-    padding: 48px 48px 48px 208px;
-    font-size: 18px;
-  }
-
-  /* Adjust the width of the visual element in the card */
-  section.card .visual {
-    width: 160px;
-  }
-
-  /* Adjust the font size and padding for the h1 in the home section */
-  h1 {
-    font-size: 1.4rem;
-    letter-spacing: 5px;
-  }
-
-  /* Adjust the font size and padding for the h2 in the K-Dramas section */
-  .container .card .content h2 {
-    font-size: 22px;
-  }
-
-  /* Adjust the font size and padding for the p elements in the K-Dramas section */
-  .container .card .content p {
+  .contact form input {
+    width: 458px;
+    height: 35px;
+    padding-left: 4px;
     font-size: 15px;
-    padding-bottom: 1px;
-  }
-
-  /* Adjust the font size for the team names in the About section */
-
-  .box h3 {
-    font-size: 20px;
-  }
+    margin-bottom: 9px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+.contact form #lastName, .contact form #mobile {
+  margin-left: 0px;
 }
 
-Ritchelle
+.contact form textarea {
+min-width: 405px;
+}
+
+.contact form #button{
+  margin-right: 0px;
+}
+}
+
+@media(max-width: 500px){
+  nav {
+    width: 109vw;
+}
+  .nav-links li a {
+    padding-left: 6rem;
+}
+
+.hamburger {
+  right: 13%;
+}
+article {
+  max-width: calc(216px + 157px);
+  min-width: calc(174px + 195px);
+}
+.container .card {
+  max-width: 184px;
+  height: 171px;
+}
+section.card .text-content h1 {
+  padding-left: 11rem;
+}
+section.card .text-content p {
+  padding-left: 11rem;
+}
+section .card .visual {
+  width: 154px;
+  left: 10px;
+}
+.container .card .imgBx {
+  width: 119px;
+}
+.contact form textarea {
+  min-width: 321px;
+}
+}
+
+@media (max-width:400px){
+  nav {
+    width: 115vw;
+}
+.nav-links li a {
+  padding-left: 3rem;
+}
+section {
+  padding-left: 2rem;
+}
+#k-dramas {
+  height: 379vh;
+}
+.sub-title h1 {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+.container .card {
+  max-width: 287px;
+}
+.container .card .imgBx {
+  width: 181px;
+    height: 187px;
+}
+.container .card .content p {
+  font-size: 14px;
+}
+.container .card:hover {
+  height: 349px;
+}
+#about {
+  height: 82vh;
+}
+.team-content {
+  gap: 1rem;
+}
+.contact form {
+  width: 301px;
+  height: 567px;
+}
+.contact form textarea {
+  min-width: 293px;
+}
+footer{
+  width: 56vh;
+}
+}
