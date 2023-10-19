@@ -356,12 +356,16 @@ article {
 }
 
 /*********************************** k-drama section *****************************/
-
-.sub-title h1{
-  font-size: 3rem;
-color: #cc005f;
-padding-top: 5rem;
+#k-dramas {
+  height: 250vh;
 }
+
+.sub-title h1 {
+  font-size: 3rem;
+  color: #cc005f;
+  padding-top: 5rem;
+}
+
 .container {
   position: absolute;
   width: 100%;
@@ -370,6 +374,7 @@ padding-top: 5rem;
   align-items: center;
   flex-wrap: wrap;
   padding-top: 8rem;
+  ;
 }
 
 .container .card {
@@ -436,7 +441,7 @@ padding-top: 5rem;
   transition-delay: 0.3s;
 }
 
-.icons a{
+.icons a {
   font-size: 0.5rem;
 }
 
@@ -526,6 +531,8 @@ padding-top: 5rem;
 #contact {
   background: radial-gradient(#281c3e, #0f051d);
   justify-content: center;
+  height: 100vh;
+  margin-top: 120px;
 }
 
 .contact {
@@ -629,6 +636,7 @@ textarea::-webkit-scrollbar-thumb {
 
 footer {
   background-color: #1a2436;
+  text-align: center;
 }
 
 .footer-nav a {
@@ -672,7 +680,8 @@ footer {
 }
 
 .footer-bottom {
-  padding-left: 725px;
+
   color: #a2e4f6;
   font-size: 1rem;
+  text-align: center;
 }
