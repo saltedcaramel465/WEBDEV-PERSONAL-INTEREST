@@ -13,7 +13,7 @@ section{
 
 @media (max-width: 1300px){
   nav {
-    width: 97vw;
+    width: 100vw;
 }
 
   .sub-title h1 {
@@ -461,4 +461,58 @@ footer{
 footer {
   width: 49vh;
 }
+}
+
+@media screen and (min-width:393px ) and (max-width: 393px){
+  #home {
+    padding-top: 12rem;
+}
+#k-dramas {
+  height: 300vh;
+}
+.sub-title h1 {
+  padding-top: 8rem;
+}
+footer {
+  width: 48vh;
+}
+}
+
+@media screen and (min-width:360px ) and (max-width: 360px){
+  nav {
+    width: 100vw;
+}
+.nav-links li a {
+  padding-left: 4rem;
+}
+  #home {
+    padding-top: 9rem;
+}
+article {
+  max-width: calc(180px + 138px);
+  min-width: calc(167px + 153px);
+}
+section .card .visual {
+  width: 143px;
+}
+section.card .text-content h1 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding-top: 1rem;
+  padding-left: 10rem;
+}
+section.card .text-content p {
+  padding-left: 10rem;
+}
+
+#k-dramas {
+  height: 345vh;
+}
+.container .card {
+  max-width: 252px;
+}
+footer {
+  width: 49vh;
+}
+
 }
