@@ -210,8 +210,9 @@ section {
 
 #home {
   margin: 0;
-  padding: 150px;
+  padding: 0;
   height: 100%;
+  width: 100%;
   font-size: 21px;
   background: radial-gradient(#281c3e, #0f051d);
   color: #000;
@@ -222,11 +223,11 @@ section.card {
   background: -webkit-linear-gradient(to right, #1cb5e0, #284661);
   background: linear-gradient(to right, #4db6d3, #14354f);
   border-radius: 24px 24px 24px 48px;
-  padding: 48px 48px 48px 308px;
-  min-width: 640px;
-  height: 100%;
+  padding: 0;
+  min-width: 940px;
+  height: 500px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-self: flex-start;
   position: relative;
   box-shadow: 5px 0 0 0 rgba(204, 204, 204, 0.3),
@@ -357,7 +358,7 @@ article {
 
 /*********************************** k-drama section *****************************/
 #k-dramas {
-  height: 250vh;
+  height: 100%;
 }
 
 .sub-title h1 {
@@ -474,7 +475,7 @@ article {
   margin-top: 4rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 .team-content img {
