@@ -356,6 +356,10 @@ min-width: 405px;
 .hamburger {
   right: 13%;
 }
+
+#home {
+  padding-top: 13rem;
+}
 article {
   max-width: calc(216px + 157px);
   min-width: calc(174px + 195px);
@@ -374,23 +378,37 @@ section .card .visual {
   width: 154px;
   left: 10px;
 }
+
+#k-dramas {
+  height: 163vh;
+}
 .container .card .imgBx {
   width: 119px;
 }
 .contact form textarea {
   min-width: 321px;
 }
+
+.sub-title h1 {
+  padding-top: 9rem;
+}
 }
 
 @media (max-width:400px){
   nav {
-    width: 115vw;
+    width: 102vw;
+}
+.hamburger {
+  right: 3%;
 }
 .nav-links li a {
-  padding-left: 3rem;
+  padding-left: 6rem;
 }
 section {
   padding-left: 2rem;
+}
+#home {
+  padding-top: 7rem;
 }
 #k-dramas {
   height: 379vh;
@@ -427,5 +445,20 @@ section {
 }
 footer{
   width: 56vh;
+}
+}
+
+@media screen and (min-width:390px ) and (max-width: 390px){
+  #home {
+    padding-top: 12rem;
+}
+  #k-dramas {
+    height: 301vh;
+}
+.sub-title h1 {
+  padding-top: 8rem;
+}
+footer {
+  width: 49vh;
 }
 }
