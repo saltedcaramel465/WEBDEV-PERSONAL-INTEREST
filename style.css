@@ -224,7 +224,7 @@ section.card {
   background: linear-gradient(to right, #4db6d3, #14354f);
   border-radius: 24px 24px 24px 48px;
   padding: 0;
-  min-width: 940px;
+  min-width: 40px;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -237,17 +237,20 @@ section.card {
 section.card .text-content {
   display: flex;
   flex-direction: column;
-  width: calc(60vw - 192px);
+  
 }
 
-h1 {
+section.card .text-content h1 {
+  padding-top: 2rem;
   color: #fdf8f8;
-  font-size: 1.5rem;
   font-weight: bold;
+  font-size: 2.3rem;
   font-family: monospace;
   letter-spacing: 7px;
   cursor: pointer;
+
 }
+
 
 h1 span {
   transition: 0.5s linear;
@@ -272,6 +275,7 @@ section.card .text-content p {
   font-size: 0.9em;
   gap: 20;
   padding-left: 2rem;
+  padding-top: 1rem;
 }
 
 button {
@@ -364,7 +368,8 @@ article {
 .sub-title h1 {
   font-size: 3rem;
   color: #cc005f;
-  padding-top: 5rem;
+  padding-top: 7rem;
+  text-align: center;
 }
 
 .container {
@@ -374,7 +379,7 @@ article {
   justify-content: left;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 8rem;
+  padding-top: 3rem;
   ;
 }
 
@@ -448,7 +453,7 @@ article {
 
 /********************************* about section *******************************/
 #about {
-  padding-top: 8rem;
+  padding-top: 5rem;
   flex-wrap: wrap;
   box-sizing: border-box;
   font-family: "Space Grotesk", sans-serif;

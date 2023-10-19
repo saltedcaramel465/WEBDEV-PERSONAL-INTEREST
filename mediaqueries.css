@@ -1,5 +1,5 @@
 /*Stying for small screens*/
-@media (max-width: 1240px) {
+@media (max-width: 1200px) {
   .team {
     width: 100%;
     height: auto;
@@ -11,7 +11,7 @@
   }
 }
 
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1000px) {
 
   /* CSS for large desktops */
   /* Reset any changes made in the previous media queries */
@@ -49,29 +49,6 @@
   .box h3 {
     font-size: 23px;
   }
-}
-
-@media all and (max-width: 1100px) {
-  article {
-    width: 100%;
-    min-width: 100%;
-  }
-
-  section.card {
-    min-width: 100%;
-  }
-
-  section.card .text-content {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  /* CSS for desktops */
-}
-
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-  /* CSS for tablets */
 }
 
 @media screen and (max-width: 800px) {
@@ -154,7 +131,7 @@
   }
     /* Adjust the padding and font size for the home section */
     #home {
-      padding: 90px;
+      padding: 40px;
       font-size: 18px;
     }
     section.card {
@@ -163,10 +140,20 @@
       font-size: 10px;
   }
   .sub-title h1{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   color: #cc005f;
-  padding-top: 1rem;
+  padding-top: 6rem;
+  text-align: center;
   }
+  section.card .text-content h1{
+    font-size: 1.5rem;
+    padding-top: 0;
+  }
+
+  section.card .text-content p {
+    font-size: 1rem;
+    padding-left: 0rem;
+}
 .container{
   padding-top: 0rem;
 }
@@ -182,15 +169,20 @@
   width: 96px;
   height: 97px;
 }
+article{
+  max-width: calc(78px + 215px);
+  min-width: calc(181px + 134px);
+  padding-top: 5rem;
 
+}
 #about{
   padding-top: 11rem;
-  padding-left: 1rem;
+  padding-left: 0rem;
 }
 
 .team-content{
   padding-top: 1rem;
-  gap: 2rem;
+  gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(127px, auto));
   margin-top: 0;
 }
@@ -200,12 +192,9 @@
 }
 
 .icons i {
-  display: flex;
+  display:contents;
 }
-.contact {
-  min-height: 89vh;
 
-}
 
 .contact form {
   width: 294px;
@@ -228,7 +217,7 @@
 }
 .contact form #button {
   background: #031833;
-  margin-right: 24px;
+  margin-right: 8px;
   font-size: 12px;
 }
 
@@ -237,7 +226,7 @@
   font-weight: 50;
 }
 .footer-bottom {
-  padding-left: 118px;
+  padding-left: 13px;
   color: #a2e4f6;
   font-size: 0.5rem;
 }
@@ -248,18 +237,18 @@
 
   section.card .text-content h3 {
     max-width: calc(100% - 150px);
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   section.card .text-content p,
   section.card .text-content a {
-    font-size: 0.8em;
+    font-size: 1.1em;
   }
 
   section.card .visual {
     width: 150px;
     height: 150px;
-    right: 16px;
+    right: none;
     left: auto;
     border-radius: 50%;
   }
@@ -310,7 +299,7 @@
   }
 
   .contact form {
-    width: 50%;
+    width: 80%;
   }
 }
 
@@ -361,13 +350,4 @@
   .box h3 {
     font-size: 20px;
   }
-}
-
-@media screen and (max-width: 320px) {
-
-  /* CSS styles for the iPhone SE */
-  button a {
-    z-index: 10;
-  }
-
 }
