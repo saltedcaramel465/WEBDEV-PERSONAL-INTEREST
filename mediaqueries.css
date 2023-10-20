@@ -13,7 +13,7 @@ section{
 
 @media (max-width: 1300px){
   nav {
-    width: 100vw;
+    width: 97vw;
 }
 
   .sub-title h1 {
@@ -143,7 +143,7 @@ section.card .text-content p {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px ) {
   nav {
     position: fixed;
     z-index: 3;
@@ -356,10 +356,6 @@ min-width: 405px;
 .hamburger {
   right: 13%;
 }
-
-#home {
-  padding-top: 13rem;
-}
 article {
   max-width: calc(216px + 157px);
   min-width: calc(174px + 195px);
@@ -378,37 +374,23 @@ section .card .visual {
   width: 154px;
   left: 10px;
 }
-
-#k-dramas {
-  height: 163vh;
-}
 .container .card .imgBx {
   width: 119px;
 }
 .contact form textarea {
   min-width: 321px;
 }
-
-.sub-title h1 {
-  padding-top: 9rem;
-}
 }
 
 @media (max-width:400px){
   nav {
-    width: 102vw;
-}
-.hamburger {
-  right: 3%;
+    width: 115vw;
 }
 .nav-links li a {
-  padding-left: 6rem;
+  padding-left: 3rem;
 }
 section {
   padding-left: 2rem;
-}
-#home {
-  padding-top: 7rem;
 }
 #k-dramas {
   height: 379vh;
@@ -445,98 +427,5 @@ section {
 }
 footer{
   width: 56vh;
-}
-}
-
-@media screen and (min-width:390px ) and (max-width: 390px){
-  #home {
-    padding-top: 12rem;
-}
-  #k-dramas {
-    height: 301vh;
-}
-.sub-title h1 {
-  padding-top: 8rem;
-}
-footer {
-  width: 49vh;
-}
-}
-
-@media screen and (min-width:393px ) and (max-width: 393px){
-  #home {
-    padding-top: 12rem;
-}
-#k-dramas {
-  height: 300vh;
-}
-.sub-title h1 {
-  padding-top: 8rem;
-}
-footer {
-  width: 48vh;
-}
-}
-
-@media screen and (min-width:360px ) and (max-width: 360px){
-  nav {
-    width: 100vw;
-}
-.nav-links li a {
-  padding-left: 4rem;
-}
-  #home {
-    padding-top: 9rem;
-}
-article {
-  max-width: calc(180px + 138px);
-  min-width: calc(167px + 153px);
-}
-section .card .visual {
-  width: 143px;
-}
-section.card .text-content h1 {
-  font-size: 1rem;
-  letter-spacing: 2px;
-  padding-top: 1rem;
-  padding-left: 10rem;
-}
-section.card .text-content p {
-  padding-left: 10rem;
-}
-
-#k-dramas {
-  height: 345vh;
-}
-.container .card {
-  max-width: 252px;
-}
-footer {
-  width: 49vh;
-}
-
-}
-
-/* ipad air */
-@media only screen and (min-width: 820px) and (max-width: 1180px){
-  #home {
-    padding-top: 21rem;
-}
-section.card .text-content h1 {
-  font-size: 2.3rem;
-}
-section.card .text-content p {
-  font-size: 1.2rem;
-}
-#k-dramas {
-  height: 111vh;
-}
-#about {
-  padding-top: 2rem;
-}
-.team-content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  gap: 11rem;
 }
 }
