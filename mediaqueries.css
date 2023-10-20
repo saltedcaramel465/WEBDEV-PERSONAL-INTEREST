@@ -222,24 +222,6 @@ section.card .text-content p {
     opacity: 1;
   }
 
-  article {
-    max-width: calc(402px + 202px);
-    min-width: calc(393px + 198px);
-}
-section .card .visual {
-  width: 194px;
-}
-section.card .text-content h1 {
-  font-size: 2rem;
-  letter-spacing: 4px;
-  padding-left: 15rem;
-  padding-top: 4rem;
-}
-section.card .text-content p {
-  padding-left: 14rem;
-  padding-top: 0rem;
-}
-
 }
 
 
