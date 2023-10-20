@@ -147,100 +147,82 @@ section.card .text-content p {
 }
 
 
-@media only screen and (max-width: 800px ) {
-
-  nav {
-    position: fixed;
-    z-index: 3;
-  }
-  .hamburger {
-    display: block;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
-    z-index: 2;
-    transition: all 0.7s ease;
+@media (max-width: 900px) {
+  #contact {
+    margin-bottom: 1in;
   }
 
-  .nav-links {
-    background: transparent;
-    height: 33vh;
-    width: 70vh;
-    padding: 0;
-    padding-top: 3rem;
-    flex-direction: column;
-    clip-path: circle(50px at 90% -20%);
-    -webkit-clip-path: circle(50px at 90% -10%);
-    transition: all 1s ease-out;
-    pointer-events: none;
+  .contactt form {
+    width: 550px;
+    height: 650px;
   }
 
-  .nav-links.open {
-    clip-path: circle(1000px at 90% -10%);
-    -webkit-clip-path: circle(1000px at 90% -10%);
-    pointer-events: all;
+  .contactt form input {
+    width: 450px;
   }
 
-  .nav-links li a {
-    padding-left: 20rem;
+  .contactt form h4 {
+    width: 450px;
+  }
+
+  .contactt form textarea {
+    width: 450px;
+  }
+
+  .footnav-links {
+    font-size: 1.1rem;
+  }
+  
+  .footer-bottom {
+    font-size: 0.9rem;
+  } 
 }
 
-  .nav-links li {
-    opacity: 0;
+@media  (max-width: 600px) {
+  #contact {
+    margin-bottom: 0.5px;
   }
 
-  .nav-links li:nth-child(1) {
-    transition: all 0.5s ease 0.2s;
+  .contactt form {
+    width: 300px;
+    height: 550px;
+    gap: 5px;
+  }
+  
+  .contactt form h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contactt form input {
+    width: 250px;
+  }
+  
+  .contactt form h4 {
+    width: 250px;
+    margin-top: 20px;
+  }
+  
+  .contactt form textarea {
+    width: 250px;
+  }
+  
+  textarea::-webkit-scrollbar {
+    width: 0.75em;
+  }
+  
+  .contactt form #button {
+    margin-bottom: 20px;
   }
 
-  .nav-links li:nth-child(2) {
-    transition: all 0.5s ease 0.4s;
+  .footnav-links {
+    font-size: 0.8rem;
   }
-
-  .nav-links li:nth-child(3) {
-    transition: all 0.5s ease 0.6s;
-  }
-
-  .nav-links li:nth-child(4) {
-    transition: all 0.5s ease 0.7s;
-  }
-
-  .nav-links li:nth-child(5) {
-    transition: all 0.5s ease 0.8s;
-  }
-
-  .nav-links li:nth-child(6) {
-    transition: all 0.5s ease 0.9s;
-    margin: 0;
-  }
-
-  .nav-links li:nth-child(7) {
-    transition: all 0.5s ease 1s;
-    margin: 0;
-  }
-
-  li.fade {
-    opacity: 1;
-  }
-
-  #home{
-    height:70vh;
-  }
-
-  #k-dramas{
-    height: 100vh;
-  }
-
-  .contact{
-    min-height: 70vh;
-  }
-  #about{
-    height: 50vh;
-  }
+  
+  .footer-bottom {
+    font-size: 0.6rem;
+  } 
 }
-
 
 @media (max-width: 700px){
   .cube-loader {

@@ -541,6 +541,7 @@ article {
   height: 100vh;
   display: flex;
   justify-content: center;
+  margin-bottom: 0.5in;
 }
 
 .contactt {
@@ -633,57 +634,35 @@ textarea::-webkit-scrollbar-thumb {
   background-color: yellow;
 }
 
-
 /************************************* Footer ********************************/
-
 footer {
   background-color: #1a2436;
-  text-align: center;
-}
-
-.footer-nav a {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.footnav-links {
-  display: flex;
-  gap: 1rem;
-  list-style: none;
-  font-size: 24px;
-  position: relative;
 }
 
 .footer-nav {
   display: flex;
   justify-content: center;
-  align-items: center;
-  justify-content: space-around;
-  transition: 0.3s;
-  background-color: transparent;
-  margin: 2px;
+}
+
+.footnav-links {
+  list-style: none;
+  display: flex;
+  font-size: 1.2rem;
+  gap: 1rem;
 }
 
 .footnav-links a {
-  text-decoration: none;
-  font-size: 1.2rem;
   color: #abe8fc;
   font-weight: 200;
-  padding: 1px 1px;
+  transition-duration: 0.5s;
 }
 
 .footnav-links a:hover {
   color: #a2b719;
 }
 
-.footnav-links a:hover::after {
-  width: 100%;
-}
-
 .footer-bottom {
-
   color: #a2e4f6;
   font-size: 1rem;
   text-align: center;
-}
+} 
