@@ -143,11 +143,12 @@ section.card .text-content p {
 }
 
 
-@media screen and (min-width: 800px ) {
+@media only screen and (max-width: 800px ) {
   nav {
     position: fixed;
     z-index: 3;
   }
+}
 
   .hamburger {
     display: block;
@@ -161,7 +162,6 @@ section.card .text-content p {
   }
 
   .nav-links {
-    /* position: fixed; */
     background: transparent;
     height: 33vh;
     width: 70vh;
@@ -221,8 +221,6 @@ section.card .text-content p {
   li.fade {
     opacity: 1;
   }
-
-}
 
 
 @media (max-width: 700px){
