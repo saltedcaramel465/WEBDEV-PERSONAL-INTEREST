@@ -1,8 +1,5 @@
 /*Stying for small screens*/
-body {
-  overflow-x: hidden;
-  background: radial-gradient(#281c3e, #0f051d);
-}
+
 @media (max-width: 1600px){
   nav {
     width: 112vw;
