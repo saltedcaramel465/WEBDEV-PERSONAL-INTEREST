@@ -5,7 +5,7 @@
     width: 100%;
   }
   #k-dramas {
-    height: 137vh;
+    height: 150vh;
 }
 section{
   padding-left: 0;
@@ -17,6 +17,9 @@ section{
     width: 100%;
 }
 
+#k-dramas {
+  height: 140vh;
+}
   .sub-title h1 {
     font-size: 2.8rem;
     padding-top: 5rem;
@@ -50,7 +53,7 @@ section{
     padding-top: 7rem;
 }
   #k-dramas {
-    height: 109vh;
+    height: 110vh;
 }
   #about {
     height: 70vh;
@@ -81,7 +84,6 @@ section{
   section.card .visual {
     width: 190px;
   }
-
   h1 {
     font-size: 1.5rem;
     letter-spacing: 7px;
@@ -120,7 +122,7 @@ section.card .text-content p {
   padding-top: 0rem;
 }
   #k-dramas {
-    height: 149vh;
+    height: 119vh;
 }
   .sub-title h1 {
     font-size: 2rem;
@@ -141,6 +143,10 @@ section.card .text-content p {
 
 
 @media (max-width: 900px) {
+
+  #k-dramas {
+    height: 145vh;
+  }
   #contact {
     margin-bottom: 1in;
   }
@@ -169,6 +175,7 @@ section.card .text-content p {
   .footer-bottom {
     font-size: 0.9rem;
   } 
+
 }
 
 @media screen and (max-width: 800px) {
@@ -256,6 +263,7 @@ section.card .text-content h1 {
   padding-top: 1rem;
   font-size: 2rem;
 }
+
 }
 
 @media (max-width: 700px){
@@ -413,6 +421,9 @@ article {
   max-width: calc(216px + 157px);
   min-width: calc(174px + 195px);
 }
+#k-dramas {
+  height: 167vh;
+}
 .container .card {
   max-width: 184px;
   height: 171px;
@@ -442,11 +453,8 @@ section .card .visual {
 .nav-links li a {
   padding-left: 11rem;
 }
-/* .hamburger {
-  right: 9%;
-} */
 section {
-  padding-left: 2rem;
+  padding-left: 5rem;
 }
 
 article {
@@ -462,7 +470,7 @@ section.card .text-content p {
   font-size: 1rem;
 }
 #k-dramas {
-  height: 379vh;
+  height: 289vh;
 }
 .sub-title h1 {
   font-size: 1.5rem;
@@ -482,10 +490,16 @@ section.card .text-content p {
   height: 349px;
 }
 #about {
-  height: 82vh;
+  height: 104vh;
 }
 .team-content {
   gap: 1rem;
+  margin-left:36px;
+    margin-right: -36px;
+}
+#contact {
+  margin-left: 45px;
+  margin-bottom: 0px;
 }
 .contact form {
   width: 301px;
