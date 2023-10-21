@@ -558,7 +558,7 @@ article {
   justify-content: center;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
-  background: radial-gradient(#4e6c7c, #2c394e);
+  /* background: radial-gradient(#4e6c7c, #2c394e); */
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -636,8 +636,8 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 /************************************* Footer ********************************/
-footer {
-  background-color: #1a2436;
+ footer {
+  background-color: #1a2436; 
 }
 
 .footer-nav {
