@@ -63,7 +63,7 @@ section{
   /* CSS for large desktops */
   /* Reset any changes made in the previous media queries */
   .nav-links li a {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   #home {
@@ -203,6 +203,10 @@ section.card .text-content p {
 
   .nav-links li {
     opacity: 0;
+  }
+  .nav-links li a {
+
+    padding-left: 24rem;
   }
 
   .nav-links li:nth-child(1) {
