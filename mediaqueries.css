@@ -44,11 +44,6 @@ section{
   .container .card .imgBx{
     width: 123px;
   }
-  .team {
-    width: 100%;
-    height: auto;
-    padding: 90px 2%;
-  }
 
   .sub-title h1 {
     font-size: 2rem;
@@ -335,9 +330,11 @@ section.card .text-content h1 {
   font-size: 1.5rem;
   letter-spacing: 3px;
   padding-top: 1rem;
+  padding-left: 15rem;
 }
 section.card .text-content p {
 font-size: 0.8rem;
+padding-left: 15rem;
 }
 #k-dramas {
   height: 177vh;
@@ -347,6 +344,9 @@ font-size: 0.8rem;
 }
 .container .card .imgBx {
   width: 154px;
+}
+section .card .visual {
+  width: 198px;
 }
 
 #about {
@@ -360,6 +360,8 @@ font-size: 0.8rem;
   gap: 5.5rem;
   justify-content: space-around;
 }
+
+
 }
 
 @media(max-width: 500px){
@@ -401,10 +403,13 @@ section .card .visual {
 
 @media (max-width:400px){
   nav {
-    width: 115vw;
+    width: 133vw;
 }
 .nav-links li a {
   padding-left: 3rem;
+}
+.hamburger {
+  right: 5%;
 }
 section {
   padding-left: 2rem;
