@@ -9,4 +9,14 @@ Lingal, Jeffrey Allen
 
 ASSIGNED TASKS
 *BALTAZAR*
-style
+style, clolor, size, coloumns and animations.
+
+CABIGTING
+Style and media
+
+RUERAS
+Index and media
+
+LINGAL
+Index
+
