@@ -2,7 +2,7 @@
 
 @media (max-width: 1600px){
   nav {
-    width: 112vw;
+    width: 100%;
   }
   #k-dramas {
     height: 137vh;
@@ -14,7 +14,7 @@ section{
 
 @media (max-width: 1300px){
   nav {
-    width: 97vw;
+    width: 100%;
 }
 
   .sub-title h1 {
@@ -59,6 +59,7 @@ section{
 }
 
 @media only screen and (min-width: 1000px) {
+  
 
   /* CSS for large desktops */
   /* Reset any changes made in the previous media queries */
@@ -173,14 +174,18 @@ section.card .text-content p {
 @media screen and (max-width: 800px) {
   nav {
     position: fixed;
-    z-index: 3;
+    z-index:3;
+  }
+
+  .cube-loader{
+    display: none;
   }
 
   .hamburger {
     display: block;
     position: absolute;
     cursor: pointer;
-    right: 5%;
+    right: 0%;
     top: 50%;
     transform: translate(-5%, -50%);
     z-index: 2;
@@ -206,7 +211,7 @@ section.card .text-content p {
   }
   .nav-links li a {
 
-    padding-left: 24rem;
+    padding-left: 26rem;
   }
 
   .nav-links li:nth-child(1) {
@@ -242,10 +247,84 @@ section.card .text-content p {
   li.fade {
     opacity: 1;
   }
+
+  article {
+    max-width: calc(317px + 248px);
+    min-width: calc(269px + 246px);
+}
+section.card .text-content h1 {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+}
+
+@media (max-width: 700px){
+  nav {
+    width: 100%;
+}
+  .cube-loader {
+    display: none;
+  }
+  .nav-links li a {
+    padding-left: 21rem;
+}
+
+.hamburger{
+  right: 0%;
+}
+article {
+  max-width: calc(281px + 157px);
+  min-width: calc(233px + 195px);
+}
+section.card .text-content h1 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  padding-top: 1rem;
+  padding-left: 15rem;
+}
+section.card .text-content p {
+font-size: 0.8rem;
+padding-left: 15rem;
+}
+#k-dramas {
+  height: 177vh;
+}
+.container .card {
+  max-width: 264px;
+}
+.container .card .imgBx {
+  width: 154px;
+}
+section .card .visual {
+  width: 198px;
+}
+
+#about {
+  height: 86vh;
+}
+.team-content {
+  margin-top: 0;
+  padding-top: 2rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  gap: 5.5rem;
+  justify-content: space-around;
 }
 
 
+}
+
 @media  (max-width: 600px) {
+  nav {
+    width: 100%;
+}
+.nav-links li a {
+  padding-left: 14rem;
+}
+
+.hamburger{
+  right: 0%;
+}
   #contact {
     margin-bottom: 0.5px;
   }
@@ -319,65 +398,16 @@ section.card .text-content p {
   }
 }
 
-@media (max-width: 700px){
-  .cube-loader {
-    display: none;
-  }
-  .nav-links li a {
-    padding-left: 18rem;
-}
-article {
-  max-width: calc(281px + 157px);
-  min-width: calc(233px + 195px);
-}
-section.card .text-content h1 {
-  font-size: 1.5rem;
-  letter-spacing: 3px;
-  padding-top: 1rem;
-  padding-left: 15rem;
-}
-section.card .text-content p {
-font-size: 0.8rem;
-padding-left: 15rem;
-}
-#k-dramas {
-  height: 177vh;
-}
-.container .card {
-  max-width: 264px;
-}
-.container .card .imgBx {
-  width: 154px;
-}
-section .card .visual {
-  width: 198px;
-}
-
-#about {
-  height: 86vh;
-}
-.team-content {
-  margin-top: 0;
-  padding-top: 2rem;
-  padding-left: 0rem;
-  padding-right: 0rem;
-  gap: 5.5rem;
-  justify-content: space-around;
-}
-
-
-}
-
 @media(max-width: 500px){
   nav {
-    width: 109vw;
+    width: 100%;
 }
   .nav-links li a {
-    padding-left: 6rem;
+    padding-left: 10rem;
 }
 
 .hamburger {
-  right: 13%;
+  right: 0%;
 }
 article {
   max-width: calc(216px + 157px);
@@ -407,16 +437,29 @@ section .card .visual {
 
 @media (max-width:400px){
   nav {
-    width: 133vw;
+    width: 100%;
 }
 .nav-links li a {
-  padding-left: 3rem;
+  padding-left: 11rem;
 }
-.hamburger {
-  right: 5%;
-}
+/* .hamburger {
+  right: 9%;
+} */
 section {
   padding-left: 2rem;
+}
+
+article {
+  max-width: calc(323px + 134px);
+  min-width: calc(322px + 159px);
+}
+
+section.card .text-content h1 {
+  font-size: 2rem;
+}
+
+section.card .text-content p {
+  font-size: 1rem;
 }
 #k-dramas {
   height: 379vh;
