@@ -22,7 +22,11 @@ Looking at different display settings, modern layout tools like flexbox, CSS gri
 size, coloumns and animations.
 
 CABIGTING
-Style and media
+
+- Contact Form
+- Footer
+- Media
+- Designs and style (color combinations & buttons )
 
 LINGAL
 Index: k-drama section)
