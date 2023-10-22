@@ -437,6 +437,7 @@ article {
   .contact form textarea {
     min-width: 321px;
   }
+<<<<<<< Updated upstream
 }
 
 @media (max-width: 400px) {
@@ -788,3 +789,6 @@ section.card .text-content p {
   height: 43vh;
 }
 } */
+=======
+}
+>>>>>>> Stashed changes
