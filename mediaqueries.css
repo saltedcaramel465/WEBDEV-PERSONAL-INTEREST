@@ -64,7 +64,7 @@
 
   #home {
     padding: 0px;
-    padding-top: 12rem;
+    padding-top: 7rem;
     font-size: 21px;
   }
 
@@ -98,9 +98,14 @@
   #home {
     padding-top: 8rem;
   }
-  article {
+  /* article {
     max-width: calc(461px + 248px);
     min-width: calc(469px + 246px);
+  } */
+  
+  article {
+    max-width: calc(223px + 209px);
+    min-width: calc(494px + 358px);
   }
   section .card .visual {
     width: 248px;
@@ -245,15 +250,20 @@
   li.fade {
     opacity: 1;
   }
-
-  article {
-    max-width: calc(317px + 248px);
-    min-width: calc(269px + 246px);
-  }
+article {
+  max-width: calc(464px + 248px);
+  min-width: calc(290px + 246px);
+}
   section.card .text-content h1 {
     padding-top: 1rem;
     font-size: 2rem;
   }
+  .container .card {
+    max-width: 222px;
+  }
+  footer {
+    width: 102vh;
+}
 }
 
 @media (max-width: 700px) {
@@ -268,8 +278,8 @@
     right: 0%;
   }
   article {
-    max-width: calc(281px + 157px);
-    min-width: calc(233px + 195px);
+    max-width: calc(684px);
+    min-width: calc(775px);
   }
   section.card .text-content h1 {
     font-size: 1.5rem;
@@ -314,6 +324,10 @@
 
   .hamburger {
     right: 0%;
+  }
+
+  article {
+    max-width: calc(421px);
   }
   #contact {
     margin-bottom: 0.5px;
@@ -427,23 +441,24 @@
 
 @media (max-width: 400px) {
   .nav-links li a {
-    padding-left: 11rem;
+    padding-left: 10rem;
   }
-  section {
+  /* section {
     padding-left: 6rem;
-  }
+  } */
 
   article {
-    max-width: calc(323px + 134px);
-    min-width: calc(322px + 159px);
+    width: 100%;
+    height: 100%;
+    margin-left: 14px
   }
 
   section.card .text-content h1 {
-    font-size: 2rem;
+    font-size: 26px;
   }
 
   section.card .text-content p {
-    font-size: 1rem;
+    font-size: 13px;
   }
   #k-dramas {
     height: 289vh;
@@ -466,15 +481,15 @@
     height: 349px;
   }
   #about {
-    height: 104vh;
+    height: 60vh;
   }
   .team-content {
     gap: 1rem;
-    margin-left: 36px;
+    margin-left: 14px;
     margin-right: -36px;
   }
   #contact {
-    margin-left: 45px;
+    margin-left: 20px;
     margin-bottom: 0px;
   }
   .contact form {
@@ -485,51 +500,7 @@
     min-width: 293px;
   }
 }
-
-/* @media only screen and (min-width: 360px) and (max-width: 740px) {
-  section {
-    padding-left: 0rem;
-  }
-  .nav-links li a {
-    padding-left: 1rem;
-  }
-  article {
-    max-width: calc(340px);
-    min-width: calc(268px);
-  }
-  #k-dramas {
-    height: 175vh;
-  }
-  section.card .text-content h1 {
-    font-size: 1.5rem;
-  }
-  section.card .text-content p {
-    font-size: 0.7rem;
-  }
-  .container .card {
-    max-width: 160px;
-    height: 128px;
-  }
-  .container .card .imgBx {
-    width: 128px;
-    height: 149px;
-  }
-  .container .card:hover {
-    height: 431px;
-  }
-  #about {
-    height: 61vh;
-  }
-  .team-content {
-    margin-left: 8px;
-    margin-right: 9px;
-  }
-  #contact {
-    margin-left: 0px;
-  }
-} */
-
-/* @media only screen and (min-width: 375px) and (max-width: 667px) {
+@media (min-width: 375px) and (max-width: 375px) {
   section {
     padding-left: 0rem;
   }
@@ -540,8 +511,8 @@
     height: 204vh;
   }
   article {
-    max-width: calc(340px);
-    min-width: calc(268px);
+    width: 100%;
+    height: 100%;
   }
   section.card .text-content h1 {
     font-size: 1.5rem;
@@ -573,18 +544,76 @@
   #contact {
     margin-left: 0px;
   }
-} */
+}
 
-@media only screen and (min-width: 390px) and (max-width: 844px) {
+
+/* @media only screen and (min-width: 360px) and (max-width: 740px) {
+  section {
+    padding-left: 0rem;
+  }
+  .nav-links li a {
+    padding-left: 1rem;
+  }
+  
+  article {
+    width: 100%;
+    height: 100%;
+  }
+  #k-dramas {
+    height: 175vh;
+  }
+  section.card .text-content h1 {
+    font-size: 1.5rem;
+  }
+  section.card .text-content p {
+    font-size: 0.7rem;
+  }
+  .container .card {
+    max-width: 160px;
+    height: 128px;
+  }
+  .container .card .imgBx {
+    width: 128px;
+    height: 149px;
+  }
+  .container .card:hover {
+    height: 431px;
+  }
+  #about {
+    height: 61vh;
+  }
+  .team-content {
+    margin-left: 8px;
+    margin-right: 9px;
+  }
+  #contact {
+    margin-left: 0px;
+  }
+}*/
+
+
+@media (min-width: 390px) and (max-width: 390px) {
   .nav-links li a {
     padding-left: 4rem;
   }
+  section {
+    padding-left: 0;
+}
   #home {
     padding-top: 13rem;
   }
   #k-dramas {
-    height: 158vh;
-  }
+    height: 171vh;
+}
+  .container .card {
+    max-width: 175px;
+}
+.container .card .imgBx {
+  width: 145px;
+}
+.container .card:hover {
+  height: 439px;
+}
   .container .card .content h2 {
     font-size: 20px;
   }
@@ -592,16 +621,23 @@
     font-size: 13.5px;
   }
   #about {
-    height: 56vh;
+    height: 70vh;
   }
+  .team-content {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+#contact {
+  margin-left: 0px;
+}
 }
 
-@media only screen and (min-width: 412px) and (max-width: 914px) {
+/*@media only screen and (min-width: 412px) and (max-width: 914px) {
   #k-dramas {
-    height: 141vh;
+    height: 160vh;
 }
-}
-@media only screen and (min-width: 414px) and (max-width: 896px) {
+} */
+@media (min-width: 414px) and (max-width: 414px) {
   #home {
     padding-top: 13rem;
   }
@@ -616,11 +652,11 @@
     height: 159vh;
   }
   #about {
-    height: 54vh;
+    height: 100%;
   }
 }
 
-@media only screen and (min-width: 540px) and (max-width: 720px){
+/* @media (min-width: 540px) and (max-width: 540px){
   .nav-links li a {
     padding-left: 14rem;
 }
@@ -660,7 +696,7 @@ section.card .text-content p {
   margin-right: 41px;
 }
 
-}
+} */
 
 /* @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .nav-links li a {
