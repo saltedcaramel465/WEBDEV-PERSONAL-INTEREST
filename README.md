@@ -1,15 +1,17 @@
-DramaVibes
+#DramaVibes
 
 Members:
 
 - Baltazar,Charlene B.
 - Cabigting, Monique Kyle
-- Rueras, Ritchelle
 - Lingal, Jeffrey Allen
+- Rueras, Ritchelle
+
 
 ASSIGNED TASKS:
 
 RUERAS
+
 Index - navbar, hamburger, home, k-drama, about, contact sections.
 Mediaqueries
 
