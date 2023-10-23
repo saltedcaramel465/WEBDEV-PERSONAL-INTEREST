@@ -390,7 +390,7 @@ section.card {
     padding-left: 0;
   }
   #k-dramas {
-    height: 182vh;
+    height: 190vh;
   }
   .container .card {
     max-width: 231px;
@@ -420,7 +420,7 @@ section.card {
     min-width: calc(174px + 195px);
   }
   #k-dramas {
-    height: 167vh;
+    height: 173vh;
   }
   .container .card {
     max-width: 184px;
@@ -451,7 +451,9 @@ section.card {
   section {
     padding: 0;
   }
-
+#home{
+  margin-left: 21px;
+}
   article {
     max-width: calc(182px + 85px);
     min-width: calc(225px  + 124px);
@@ -465,7 +467,8 @@ section.card {
     font-size: 13px;
   }
   #k-dramas {
-    height: 289vh;
+    margin-left: 22px;
+    height: 296vh;
   }
   .sub-title h1 {
     font-size: 25.1px;
@@ -485,7 +488,7 @@ section.card {
     height: 349px;
   }
   #about {
-    height: 140vh;
+    height: 78vh;
   }
   .team-content {
     gap: 1rem;
@@ -505,7 +508,45 @@ section.card {
     min-width: 293px;
   }
   footer{
-    width: 41.5vh;
+    width: 45.5vh;
+  }
+}
+
+@media (max-width: 300px){
+  #home {
+    margin-left: 25px;
+  }
+  #k-dramas {
+    margin-left: 76px;
+    height: 298vh;
+  }
+  #about {
+    margin-left: 61px;
+  }
+  #contact {
+    margin-left: 78px;
+  }
+  footer{
+    width: 45.5vh;
+  }
+}
+
+@media (max-width: 200px){
+  #home {
+    margin-left: 25px;
+  }
+  #k-dramas {
+    margin-left: 104px;
+    height: 300vh;
+  }
+  #about {
+    margin-left: 104px;
+  }
+  #contact {
+    margin-left: 110px;
+  }
+  footer{
+    width: 45.5vh;
   }
 }
 
