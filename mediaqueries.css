@@ -598,7 +598,7 @@ section.card {
     margin-left: 0px;
   }
   footer {
-    width: 100%;
+    width: 52vh;
 }
 }
 
@@ -609,8 +609,12 @@ section.card {
   .nav-links li a {
     padding-left: 3rem;
   }
+  #home {
+    margin-left: 13px;
+}
   #k-dramas {
-    height: 215vh;
+    height: 226vh;
+    margin-left: 5px;
   }
   article {
     max-width: calc(182px + 85px);
@@ -653,7 +657,7 @@ section.card {
     margin-left: 0px;
   }
   footer {
-    width: 100%;
+    width: 58.5vh;
 }
 }
 
@@ -697,7 +701,7 @@ section.card {
   margin-left: 0px;
 }
 footer {
-  width: 100%;
+  width: 49.5vh;
 }
 }
 
@@ -715,7 +719,7 @@ footer {
   margin-left: 0px;
 }
 footer {
-  width: 100%;
+  width: 49vh;
 }
 }
 
