@@ -97,25 +97,23 @@ nav {
   left: 0; */
   /* width 75px / 2 = 37.5px */
   transform: rotateY(calc(90deg * var(--i))) translateZ(17.5px);
-  background: linear-gradient(
-    to bottom,
-    hsl(330, 3.13%, 25.1%) 0%,
-    hsl(177.27, 21.71%, 32.06%) 5.5%,
-    hsl(176.67, 34.1%, 36.88%) 12.1%,
-    hsl(176.61, 42.28%, 40.7%) 19.6%,
-    hsl(176.63, 48.32%, 43.88%) 27.9%,
-    hsl(176.66, 53.07%, 46.58%) 36.6%,
-    hsl(176.7, 56.94%, 48.91%) 45.6%,
-    hsl(176.74, 62.39%, 50.91%) 54.6%,
-    hsl(176.77, 69.86%, 52.62%) 63.4%,
-    hsl(176.8, 76.78%, 54.08%) 71.7%,
-    hsl(176.83, 83.02%, 55.29%) 79.4%,
-    hsl(176.85, 88.44%, 56.28%) 86.2%,
-    hsl(176.86, 92.9%, 57.04%) 91.9%,
-    hsl(176.88, 96.24%, 57.59%) 96.3%,
-    hsl(176.88, 98.34%, 57.93%) 99%,
-    hsl(176.89, 99.07%, 58.04%) 100%
-  );
+  background: linear-gradient(to bottom,
+      hsl(330, 3.13%, 25.1%) 0%,
+      hsl(177.27, 21.71%, 32.06%) 5.5%,
+      hsl(176.67, 34.1%, 36.88%) 12.1%,
+      hsl(176.61, 42.28%, 40.7%) 19.6%,
+      hsl(176.63, 48.32%, 43.88%) 27.9%,
+      hsl(176.66, 53.07%, 46.58%) 36.6%,
+      hsl(176.7, 56.94%, 48.91%) 45.6%,
+      hsl(176.74, 62.39%, 50.91%) 54.6%,
+      hsl(176.77, 69.86%, 52.62%) 63.4%,
+      hsl(176.8, 76.78%, 54.08%) 71.7%,
+      hsl(176.83, 83.02%, 55.29%) 79.4%,
+      hsl(176.85, 88.44%, 56.28%) 86.2%,
+      hsl(176.86, 92.9%, 57.04%) 91.9%,
+      hsl(176.88, 96.24%, 57.59%) 96.3%,
+      hsl(176.88, 98.34%, 57.93%) 99%,
+      hsl(176.89, 99.07%, 58.04%) 100%);
 }
 
 .cube-top {
@@ -216,14 +214,14 @@ section {
   height: 100%;
   width: 100%;
   font-size: 17px;
-  background: rgb(22, 1, 32);
-  color: #000;
+  background: rgb(84, 4, 56);
+  color: #3f0404;
   font-family: "Poppins", sans-serif;
 }
 
 section.card {
-  background: -webkit-linear-gradient(to right, #1cb5e0, #284661);
-  background: linear-gradient(to right, #4db6d3, #14354f);
+  background: -webkit-linear-gradient(to right, #bdc2c4, #aaacae);
+  background: linear-gradient(to right, #ebf0f2, #14354f);
   border-radius: 24px 24px 24px 48px;
   padding: 0;
   min-width: 40px;
@@ -243,7 +241,7 @@ section.card .text-content {
 
 section.card .text-content h1 {
   padding-top: 2rem;
-  color: #fdf8f8;
+  color: #fbf9f9;
   font-weight: bold;
   font-size: 2.3rem;
   font-family: monospace;
